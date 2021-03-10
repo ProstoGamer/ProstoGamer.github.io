@@ -1,0 +1,159 @@
+.menu{
+	color: white;
+	background-color: #45015d;
+	padding: 10px 20px;
+	border-radius: 15px;
+	font-weight: bold;
+	width: 150px;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.menu a{
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 8px 16px;
+	width: 100%;
+	box-sizing: border-box;
+}
+.menu a:hover{
+	color: black;
+	background-color: white;
+	border-radius: 10px;
+}
+.main{
+	margin-left: 360px;
+	margin-right: 40px;
+	margin-top: 80px;
+}
+.main h1{
+	font-size: 64px;
+	font-weight: 400;
+}
+body{
+	margin: 0;
+	font-size: 16px;
+	line-height: 1.5;
+	font-family: "Poppins",sans-serif;
+}
+.img img{
+	width: 45%;
+	margin: 5px;
+	border-radius: 10px;
+	opacity: 0.7;
+}
+.img img:hover{
+	opacity:1;
+}
+
+h2{
+	color: purple;
+}
+hr{
+	width: 100%;
+	border:5px solid #45015d;
+	background-color:  #45015d;
+	border-radius: 5px;
+}
+
+
+.member{
+	width:30%;
+	display: inline-block;
+	box-sizing: border-box;
+
+}
+.member img{
+	width: 100%;
+	 border-radius: 5px;
+	 filter: grayscale(30%);
+}
+.member .discription{
+	background-color: #f1f1f1;
+	border-radius: 5px;
+	padding: 16px 16px 5px;
+
+}
+h3{
+	margin-top: 0;
+}
+.member .shad{
+	color: #A9A9A9;
+}
+.tariff{
+	
+}
+
+.tariff ul{
+	width: 40%;
+	display: inline-block;
+	list-style: none;
+}
+.tariff-name{
+	color: white;
+	background-color: purple;
+	padding: 25px;
+	border-radius: 5px;
+}
+li{
+	background-color: #f1f1f1;
+	padding: 15px 0;
+	text-align: center;
+	border-bottom: 1px solid #dddddd;
+}
+
+.tariff .price{
+	font-size: 32px;
+}
+.bog{
+	background-color: darkorange;
+}
+.tariff a{
+	text-decoration: none;
+	background-color: white;
+	padding: 10px 20px;
+	border-radius: 19px;
+}
+.tariff .boga {
+	background-color: darkorange;
+	color: white;
+}
+label{
+	display: block;
+}
+input{
+	width: 100%;
+	padding: 8PX;
+	outline: none;
+	box-sizing: border-box;
+}
+button{
+	background-color: purple;
+	color: white;
+	width: 100%;
+	border-radius: 6px;
+	padding: 15px;
+	border:none;
+}
+button:hover{
+	color: purple;
+	background-color: white;
+}
+.footer{
+	color: black;
+	background-color: #f1f1f1;
+	text-align: right;
+	padding: 32px 58px 32px;
+}
+.footer a{
+	color: black;
+}
+#designers,
+#services,
+#packages,
+#contacts,
+#footer {
+    margin-top: 75px;
+}
